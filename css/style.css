@@ -82,8 +82,7 @@ h6 {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(/img/banner.jpg) left top repeat;
-    background-size: cover;
+    background-image: radial-gradient(circle, #fbeee7, #f5dfd3, #eed1c0, #e7c3ad, #dfb59a);    background-size: cover;
     filter: blur(8px);
     -webkit-filter: blur(8px);
     z-index: -1;
@@ -97,22 +96,19 @@ h6 {
     width: 100%;
 }
 
-.top-header img {
-    height: 200px;
-    margin-bottom: 30px;
-    border: 15px solid rgba(256, 256, 256, .1);
-}
+
 .top-header h3{
-    font-weight: 700;
-    font-size: 2vw;
-    color: #7c4a4a;
+    font-weight: 600;
+    font-size: 4vw;
+    color: #4c2b2b;
 
 }
 
 .top-header h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 700;
     color: #070707;
+    margin-bottom: 10px;
 }
 
 .top-header p {
@@ -123,7 +119,7 @@ h6 {
     display: inline-block;
     margin: 0;
     height: 40px;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 500;
     color: #452929;
 }
@@ -389,6 +385,14 @@ h6 {
     color: #AF9483;
 }
 
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+    color: #AF9483;
+}
+
+#mobile-nav ul .menu-item-active {
+    color: #AF9483;
+}
+
 #mobile-body-overly {
     width: 100%;
     height: 100%;
@@ -556,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* ============================= */
-/* ------- education CSS ------ */
+/* ------- Education CSS ------ */
 /* ============================= */
 
 .education {
